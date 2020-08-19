@@ -42,30 +42,15 @@
   border: solid #29d;
   border-width: 0 2px 2px 0;
   border-radius: 50%;
-  -webkit-animation: Loading__loading-bar-spinner___1hKY9 400ms linear infinite;
-          animation: Loading__loading-bar-spinner___1hKY9 400ms linear infinite;
-}
-
-@-webkit-keyframes Loading__loading-bar-spinner___1hKY9 {
-  0% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
+  animation: Loading__loading-bar-spinner___1hKY9 400ms linear infinite;
 }
 
 @keyframes Loading__loading-bar-spinner___1hKY9 {
   0% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
+    transform: rotate(0);
   }
 
   100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
